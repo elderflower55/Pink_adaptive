@@ -1,0 +1,24 @@
+.controls__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls__item {
+  width: 6px;
+  height: 6px;
+  background-color: @basic-blue;
+  border-radius: 50%;
+  opacity: 0.3;
+  margin-right: 19px;
+}
+
+.controls__item:last-child {
+  margin-right: 0;
+}
+
+.controls__item--active {
+  background-color: transparent;
+  border: 3px solid @basic-blue;
+  opacity: 1;
+}
